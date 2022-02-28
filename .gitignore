@@ -1,4 +1,4 @@
 .env
+.prettierignore
 node_modules
 tmp
-public/uploads
