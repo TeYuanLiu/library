@@ -24,15 +24,17 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
     />
-    <!-- Custom CSS -->
+    <!-- Main CSS -->
     <link rel="stylesheet" href="/stylesheets/main.css" id="main-css">
     <title>Demybrary</title>
+    <!-- Header JS -->
+    <script defer src="/javascripts/header.js"></script>
   </head>
   <body>
-    <div class="container">
+    <div class="grid-container">
       <%- include('../partials/header.ejs') %>
-      <div class="inner-container">
-        <%- include('../partials/errorMessage.ejs') %>
+      <%- include('../partials/errorMessage.ejs') %>
+      <div class="content-container">
         <%- body %>
       </div>
     </div>
